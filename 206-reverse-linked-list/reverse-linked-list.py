@@ -1,6 +1,6 @@
 class Solution(object):
     def reverseList(self, head):
-        if head is None:
+        if not head or not head.next:
             return head
         
         prev=None
