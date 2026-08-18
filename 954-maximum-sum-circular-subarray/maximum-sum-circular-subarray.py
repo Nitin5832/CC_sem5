@@ -14,4 +14,5 @@ class Solution(object):
 
         if best<0:
             return best
+            
         return max(best,total-worst)
