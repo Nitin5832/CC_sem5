@@ -8,7 +8,7 @@ class Solution(object):
             if nums[i] in s:
                 return True
             s.add(nums[i])
-        
+
         return False
         
         
